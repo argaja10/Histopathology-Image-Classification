@@ -36,7 +36,7 @@ test_generator = validation_augmentor.flow_from_directory(
 )
 
 # Load the best performing model
-model_path = os.path.join(config.OUTPUT_PATH, 'custom_weights-009-0.4244.hdf5')
+model_path = os.path.join(config.OUTPUT_PATH, 'custom _weights.hdf5')
 loaded_model = load_model(model_path)
 
 # Predict on the test data
