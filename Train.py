@@ -14,7 +14,7 @@ from tensorflow.keras.layers import AveragePooling2D, Dropout, Flatten, Dense, I
 from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.optimizers import SGD, Adam
 from tensorflow.keras.callbacks import ModelCheckpoint
-
+from global_avg_pooling_CNN_Resnet import BC_Model
 
 # Define paths to training, validation, and testing directories
 train_dir = config.TRAIN_PATH
